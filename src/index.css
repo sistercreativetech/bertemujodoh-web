@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #A95570;
+    --primary-hover: #92435b;
+    --blush: #F7E6EA;
+    --blush-light: #FFF5F7;
+    --rose-accent: #C77B91;
+    --text-main: #29252A;
+    --text-muted: #777078;
+    --bg-surface: #FFFFFF;
+    --border-soft: #F0E7E9;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: #29252A;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.font-serif-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
